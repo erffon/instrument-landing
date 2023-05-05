@@ -8,6 +8,7 @@ export default function Home() {
       pageDescripiton={"homepage"}
       withHeader={true}
       withFooter={true}
+      className="px-20"
     >
       <Homepage />
     </Layout>
