@@ -3,9 +3,11 @@ import { IoNotifications } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <header className="flex justify-between pt-9 items-center">
+    <header className="flex justify-between py-9 items-center">
       {/* logo */}
-      <div className="w-1/3"></div>
+      <div className="w-1/3">
+        <img src="/assets/images/logo.png" alt="logo" />
+      </div>
       {/* links section */}
       <div className="w-1/3">
         <ul className="flex justify-evenly">
@@ -19,8 +21,9 @@ const Header = () => {
       {/* search section */}
       <div className="w-1/3 flex justify-end items-center gap-5">
         <FiSearch />
-        <div>
+        <div className="relative">
           <IoNotifications />
+          <span className="w-2 h-2 bg-red-600 absolute top-0 right-0 rounded-full border border-white" />
         </div>
         <img
           src="/assets/images/girl-avatar.png"
