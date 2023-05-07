@@ -10,7 +10,7 @@ const Header = () => {
       </div>
       {/* links section */}
       <div className="w-1/3">
-        <ul className="flex justify-evenly">
+        <ul className="flex justify-evenly font-poppinsMedium">
           <li>Products</li>
           <span>•</span>
           <li>Gallery</li>
